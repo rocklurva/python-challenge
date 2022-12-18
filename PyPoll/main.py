@@ -43,8 +43,6 @@ print('------------------------------\n')
 #initialise dictionary for election results
 election_dict = {}
 
-print(f'{election_results}')
-
 for i in range(0, len(election_results)):
     #add election results to dictionary
     election_dict.update({election_results[i][0]: election_results[i][1]})
